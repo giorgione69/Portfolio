@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+     <link rel="stylesheet" href="css/style.css">
+     <title>My Portfolio</title>
+    </head>
+ 
+    <body>
+      <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+            <a href="#" class="header__logo">Giorgio Polese</a>
+        </div>
+        <nav class="nav" id="nav-menu">
+
+           <ion-icon name="close-outline" class="header__close" id="nav-close"></ion-icon>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link"><ion-icon name="home-outline" class="home_icon"></ion-icon> Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link"><ion-icon name="person-circle-outline"></ion-icon> About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link"><ion-icon name="rocket-outline"></ion-icon> Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link"><ion-icon name="library-outline"></ion-icon> Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link"><ion-icon name="mail-outline"></ion-icon> Contact</a></li>
+            </ul>
+        </nav>
+       <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+      </header>
+
+
+      <!--===== HOME =====-->
+     <section class="main" id="home">
+      <div class="content">
+        <div>
+          <h1><span>Giorgio Polese</span></h1>  
+          <div class="animated_text"><span class="typing"></span></div>      
+        </div>
+      </div>  
+     </section>
+
+
+      <!--===== ABOUT =====-->
+     <section class="about_section" id="about">
+        <div class="title">
+         <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about_content">
+         <div class="column left">    
+            <img src="img/logo.jpg">
+         </div>
+         <div class="column right">
+           <p class="about__text">Ciao a tutti!<br>Mi chiamo <strong>Giorgio Polese</strong>, studente di Start2impact. Dopo aver appreso nuove competenze ho deciso
+            di revisionare il primo progetto basato sul portfolio personale. Anche se questa sezione si chiama <strong>About Me</strong>
+            volevo ringraziare tutto il team di Start2Impact perchè ho capito chi sono, chi voglio essere e chi sarò. Penso che ognuno di noi
+            deve si, coltivare la propria passione ma deve farla anche diventare un ossessione per far si che il proprio sogno si realizzi.<br><br>
+            <strong>"Give me a few years, I've got some big plans."</strong></p>
+         </div>     
+        </div>          
+     </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills_section" id="skills">
+        <div class="title">
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills_content">
+          <div class="column left">
+            <h2 class="content-title">My skills and Experiences</h2>
+            <p>In questi mesi attraverso le lezioni svolte sulla piattaforma ho appreso nuove tecniche che mi hanno permesso di aggiornare il progetto in essere.</p>
+           <div class="skill-img"> 
+            <img src="img/skills-design.png">
+          </div>
+          </div>
+          <div class="column right">
+            <div class="bar">
+              <div class="info">
+                <span>HTML</span>
+                <span>95%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>Javascript</span>
+                <span>80%</span>
+              </div>
+              <div class="line javascript"></div>
+            </div>
+            <div class="bar">
+              <div class="info">
+                <span>React</span>
+                <span>70%</span>
+              </div>
+              <div class="line react"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="portfolio" id="portfolio">
+        <div class="title">
+          <h2 class="section-title">Recent Work</h2>
+          <h3 class="subtitle">In questa sezione sono presenti i progetti svolti su Start2Impact</h3>
+        </div>
+        <div class="portfolio_content">
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img/pro01.jpg">           
+          </div>
+          <div class="textBx">
+            <a href="https://air-pollutoin.web.app/"><h4>Air Pollution</h4></a>
+          </div>
+        </div>
+        <div class="workBx">
+          <div class="imgBx">
+            <img src="img/pro02.jpg">
+          </div>
+          <div class="textBx">
+           <a href="https://webook-56d15.web.app/"><h4>WeBooks</h4></a>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact" id="contact">
+        <div class="title">
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="contact_content">
+          <div class="row">
+            <div class="card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="info">
+                <a href="https://github.com/"><h4>GitHub</h4></a>
+                <span>profilo</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h4>Phone</h4>
+                <span>+39 3403849159</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h4>Email</h4>
+                <span>polesegiorgio69@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+        <!-- ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+        
+            
+      <script src="main.js"></script>
+    </body>
+</html>
